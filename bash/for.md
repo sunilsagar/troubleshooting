@@ -73,5 +73,3 @@ done
 
 - This script demonstrates a nested `for` loop.
 - The outer loop iterates over numbers 1 to 3, and for each iteration, the inner loop iterates over letters A to C.
-
-These examples illustrate different use cases for the `for` loop in Bash, from iterating over arrays and files to looping through numbers and command output.

@@ -47,6 +47,13 @@ for number in {1..5}; do
   echo "Count: $number"
 done
 ```
+```
+Count: 1
+Count: 2
+Count: 3
+Count: 4
+Count: 5
+```
 
 - This script uses a brace expansion to create a sequence of numbers from 1 to 5.
 - The `for` loop iterates over each number in the sequence and prints it.
@@ -76,6 +83,19 @@ for i in {1..3}; do
   done
 done
 ```
-
+```
+Outer Loop: 1
+  Inner Loop: A
+  Inner Loop: B
+  Inner Loop: C
+Outer Loop: 2
+  Inner Loop: A
+  Inner Loop: B
+  Inner Loop: C
+Outer Loop: 3
+  Inner Loop: A
+  Inner Loop: B
+  Inner Loop: C
+```
 - This script demonstrates a nested `for` loop.
 - The outer loop iterates over numbers 1 to 3, and for each iteration, the inner loop iterates over letters A to C.

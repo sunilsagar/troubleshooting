@@ -19,8 +19,12 @@ ip route [options] [command]
 **1. Displaying the Routing Table:**
 ```bash
 ip route show
+default via 10.10.10.1 dev eth0 proto static metric 100
+10.10.10. 0/24 dev eth0 proto kernel scope link src 10.10.10.10 metric 100
+169.254.0.0716 dev etho scope Link metric 1000
 ```
 - This command displays the routing table, showing all routes and their details.
+- If default route is missing connectivity to internet will not work however local network will be available , it will be able to ping other host, server in IP range domain.
 
 **2. Adding a New Route:**
 ```bash

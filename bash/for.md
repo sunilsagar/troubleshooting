@@ -11,6 +11,12 @@ for fruit in "${fruits[@]}"; do
   echo "I like $fruit"
 done
 ```
+```
+I like apple
+I like banana
+I like cherry
+I like date
+```
 
 - This script creates an array called `fruits` containing fruit names.
 - The `for` loop iterates over each element in the array, and for each element, it prints a message.

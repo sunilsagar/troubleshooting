@@ -108,7 +108,7 @@ Make sure to specify the complete package name, including the version and archit
    Create a new `.repo` file with a descriptive name for your repository in the `/etc/yum.repos.d/` directory. You can use a text editor like `nano` or `vi` with administrative privileges (e.g., using `sudo`) to create the file. For example:
 
    ```bash
-   sudo nano /etc/yum.repos.d/myrepo.repo
+   sudo vi /etc/yum.repos.d/myrepo.repo
    ```
 
 14. **Edit the Repository Configuration:**
